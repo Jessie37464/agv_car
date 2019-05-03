@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"ros_car_0726\startup_stm32f103xb.o"
+"ros_car_0726\main.o"
+"ros_car_0726\stm32f1xx_it.o"
+"ros_car_0726\stm32f1xx_hal_msp.o"
+"ros_car_0726\motor.o"
+"ros_car_0726\encoder.o"
+"ros_car_0726\odometry.o"
+"ros_car_0726\contact.o"
+"ros_car_0726\stm32f1xx_hal_gpio_ex.o"
+"ros_car_0726\stm32f1xx_hal_tim.o"
+"ros_car_0726\stm32f1xx_hal_tim_ex.o"
+"ros_car_0726\stm32f1xx_hal_uart.o"
+"ros_car_0726\stm32f1xx_hal.o"
+"ros_car_0726\stm32f1xx_hal_rcc.o"
+"ros_car_0726\stm32f1xx_hal_rcc_ex.o"
+"ros_car_0726\stm32f1xx_hal_gpio.o"
+"ros_car_0726\stm32f1xx_hal_dma.o"
+"ros_car_0726\stm32f1xx_hal_cortex.o"
+"ros_car_0726\stm32f1xx_hal_pwr.o"
+"ros_car_0726\stm32f1xx_hal_flash.o"
+"ros_car_0726\stm32f1xx_hal_flash_ex.o"
+"ros_car_0726\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "ros_car_0726\ros_car_0726.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ros_car_0726.map" -o ros_car_0726\ros_car_0726.axf
